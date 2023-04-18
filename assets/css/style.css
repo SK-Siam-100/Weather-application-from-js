@@ -1,0 +1,122 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #03b7cb;
+}
+.card{
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+#Flashmsg{
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+::placeholder{
+    color: #545454b1;
+}
+.form-control{
+    height: 40px;
+    width: 320px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-color: #545454b1;
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    margin-bottom: 14px;
+    text-align: center;
+    color: #545454b1;
+}
+:focus{
+    border-color: #03b7cb;
+    outline: none;
+}
+.btn{
+    border: none;
+    padding: 12px;
+    font-size: 18px;
+    background-color: #03b7cb;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hr{
+    height: 1px;
+    background-color: #545454b1;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.hr:before{
+    content: "or";
+    background-color: #fff;
+    border: none;
+    position: absolute;
+    left: 45%;
+    top: -20px;
+    padding: 10px;
+    color: #545454b1;
+
+}
+.btn-block{
+    margin-top: 15px;
+    width: 100%;
+}
+.userInput{
+    display: block;
+}
+.weather{
+    display: none;
+    width: 380px;
+}
+.back{
+    background-color: transparent;
+    border: none;
+    color: #03b7cb;
+    font-size: 22px;
+}
+.card-body{
+    text-align: center;
+}
+.temperature{
+    font-size: 36px;
+    margin-bottom: 0;
+}
+.weatherImg{
+    width: 200px;
+}
+.card-footer{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.card-left{
+    border-right: 1px solid #363434b6;
+    border-top: 1px solid #363434b6;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.card-right{
+    border-top: 1px solid #363434b6;
+    text-align: center;
+    padding-bottom: 15px;
+
+}
+.card-left,.card-right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-icon{
+    font-size: 40px;
+    padding-right: 10px;
+}
+.m-0{
+    margin: 0;
+}
